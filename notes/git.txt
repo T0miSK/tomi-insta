@@ -1,0 +1,32 @@
+
+# https config - new project:
+
+
+git init
+git branch -m main
+git config user.name "sille-zoska"
+git config user.email "sille@zochova.sk"
+git remote add origin https://github.com/sille-zoska/snap-zoska.git
+git remote -v
+output:         origin  https://github.com/sille-zoska/snap-zoska.git (fetch)
+                origin  https://github.com/sille-zoska/snap-zoska.git (push)
+git add .
+
+VsCode Source control -> Initial -> Commit -> Publish branch (Sync)
+
+
+
+
+# https config - clone from Github to local PC:
+
+git clone https://github.com/sille-zoska/snap-zoska.git
+cd snap-zoska
+git init
+git branch -m main
+git config user.name "sille-zoska"
+git config user.email "sille@zochova.sk"
+
+git remote -v
+
+
+
